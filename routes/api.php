@@ -24,5 +24,5 @@ Route::get('state/{id}', [LocationController::class, 'showState'])->name('showSt
 Route::get('cities/{state_id}', [LocationController::class, 'citiesInAState'])->name('citiesInAState');
 Route::get('city/{id}', [LocationController::class, 'showCity'])->name('showCity');
 
-Route::get('lgas/{state_id}', [LocationController::class, 'LgaInAState'])->name('LgaInAState');
-Route::get('lga/{lid}', [LocationController::class, 'ShowLga'])->name('ShowLga');
+// Route::get('lgas/{state_id}', [LocationController::class, 'LgaInAState'])->name('LgaInAState');
+// Route::get('lga/{lid}', [LocationController::class, 'ShowLga'])->name('ShowLga');
